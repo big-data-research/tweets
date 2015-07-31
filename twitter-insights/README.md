@@ -49,7 +49,8 @@ This api answers to the following questions:
 1. "What is the total count of tweets matching the search term seen so far?"
 2.  "How many tweets containing the search term were there in the last 1, 5 and 15 minutes?"
 
-	http://localhost:9080/twitter-insights/tweets/{searchTerm}?mins=1&mins=10&mins=15
+
+		http://localhost:9080/twitter-insights/tweets/{searchTerm}?mins=1&mins=10&mins=15
 
 Parameters:
 
