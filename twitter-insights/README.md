@@ -37,7 +37,7 @@ After editing all the configuration files the application can be run in the foll
 
     1. go where you decompressed the tar.gz file:
        cd twitter-insights
-    2. run Jaws:
+    2. run:
        nohup bin/bin/start-twitter-insights.sh &
 
 ## Apis usage examples
