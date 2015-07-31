@@ -2,10 +2,10 @@
 
 This project is a POC that reads the twitter stream using Spark Streaming, saves some fields in elastic search and exposes a set of apis that offer insights about the data.
 
-## Building Jaws
+## Building
 
 You need to have Maven installed.
-To build Jaws, follow the below steps:
+To build, follow the below steps:
 
     cd twitter-insights
     mvn clean install -DskipTests
