@@ -17,6 +17,7 @@ To build Jaws, follow the below steps:
 To configure the project edit the following file: twitter-insights/conf/application.conf.
 
 You have to set :
+	
 	* your twitter secret access keys, 
 	* spark master, 
 	* spark streaming batch duration, 
@@ -51,6 +52,7 @@ This api answers to the following questions:
 	http://localhost:9080/twitter-insights/tweets/{searchTerm}?mins=1&mins=10&mins=15
 
 Parameters:
+
 	* searchTerm : the term for search
 	* mins : tweets time interval until now
 
@@ -65,6 +67,7 @@ This api answers to the following question:
 	http://localhost:9080/twitter-insights/terms/{searchTerm}?nb=10&mins=1&mins=10&mins=15
 
 Parameters:
+
 	* searchTerm : the term for search
 	* mins : tweets time interval until now
 	* nb: the number of the most frequent terms
@@ -80,6 +83,7 @@ This api answers to the following question:
 	http://localhost:9080/twitter-insights/tweeps/{searchTerm}?mins=1&mins=10&mins=100
 
 Parameters:
+
 	* searchTerm : the term for search
 	* mins : tweets time interval until now
 
@@ -94,6 +98,7 @@ This api answers to the following question:
 	http://localhost:9080/twitter-insights/sentiment/{searchTerm}?mins=1&mins=10&mins=100
 
 Parameters:
+
 	* searchTerm : the term for search
 	* mins : tweets time interval until now
 
