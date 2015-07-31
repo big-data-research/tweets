@@ -24,7 +24,7 @@ You have to set :
 	* the path to the target/twitter-insights.jar, 
 	* the elasticsearch url, 
 	* index name
-	* the Text API api key
+	* the Alchemy API api key
 
 Important:
 	For sentiment analysis the Text API online service so you will have to obtain a free apiKey registering here: http://www.alchemyapi.com/api/register.html
